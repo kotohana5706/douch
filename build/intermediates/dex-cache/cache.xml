@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\android\Douch\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4ec890171a97b5ab98292f131aa784e0f3792c73">
+        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.0.2_2198020771a07274e5c8519e063a913ea28fd0b8\classes.dex" />
+    </item>
+    <item
+        jar="E:\android\Douch\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.0.2_7dccfa7913e7fded872b10b8dacef91dcbf37cda\classes.dex" />
+    </item>
+    <item
+        jar="E:\android\Douch\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.0.2_843f6de470d4f86a3ccb37950ae57da79c687ac0\classes.dex" />
+    </item>
+    <item
+        jar="E:\android\Douch\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.0.2_bac5b25708def53171d81fdc7d5cf82e5fc03ad0\classes.dex" />
+    </item>
+    <item
+        jar="E:\android\Douch\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9819419ce8d79f3f81a0fc70f9345ac8c843af9c">
+        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.0.2_e274baf7e4b28bc47f683136e0472d4fcf6fa12e\classes.dex" />
+    </item>
+    <item
+        jar="E:\android\Douch\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.0.2_b04479ce13af84b00d2143ef9923aba01278f6b3\classes.dex" />
+    </item>
+    <item
+        jar="E:\android\Douch\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4e1118407e338ae8febfbabc7c81e1f30da33842">
+        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fcd4a8b73429095793fe40aa640fb856ad84225b\classes.dex" />
+    </item>
+
+</items>
