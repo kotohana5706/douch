@@ -1,8 +1,20 @@
 # D'ouch
 
-* 안준혁
-* 조재건
-* 김민
+## 팀원
+
+  * 안준혁 - Client + Server 개발
+  * 조재건 - 기획 및 구성 + Client 개발
+  * 김민   - Client 디자인 및 구성
+
+
+## Behind Story
+
+1. 온가족이 모이는 가족의 저녁 식사에서 휴대폰만 쳐다보는 동생이 모습이 안타까웠습니다.
+2. 생일 파티에서 모두 휴대폰만 봐서 비참한 기분 이였다.
+3. 아이디어가 필요한 조별 프로젝트에서 모두 휴대폰만 봐서 프로젝트가 망했습니다.
+4. 스터디 그룹에서 모두 휴대폰만 봐서 결국 놀기만 하고 공부를 할수 없었다.
+5. 놀러가서 모두 핸드폰만 봐서 따돌려진 느낌이 들었다.
+
 
 ## Application 만든 이유
 
@@ -62,4 +74,16 @@
  2. Feature 확정
  3. User Scenario별 Story board 작성
  4. Story board 기반 Design
- 5. Story board 기반 Program Software 개
+ 5. Story board 기반 Program Software 개발
+
+
+## 발표 준비
+
+ * Behind 영상
+ * Application 만든 이유
+ * 팀원 소개
+ * Application 기능 소개
+ * Application 기술 소개
+ * Application 디자인 소개
+ * 개발과정 소개
+ * 질의 응답
