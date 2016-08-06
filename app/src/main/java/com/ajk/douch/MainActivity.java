@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public Fragment getItem(int position) {
                 switch (position %4){
-                    default: return MainViewFragment.newInstance();
+                    default: return MainViewFragments.newInstance();
                 }
             }
 

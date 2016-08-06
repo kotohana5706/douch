@@ -1,6 +1,9 @@
 package com.ajk.douch;
 
+import android.app.PendingIntent;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.nfc.NfcAdapter;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +12,10 @@ import android.widget.Toast;
 
 public class login extends AppCompatActivity {
 
+    private NfcAdapter mNfcAdapter;
+    private PendingIntent pIntent;
+    private IntentFilter[] iFilter;
+    private String[][] mNfcList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
