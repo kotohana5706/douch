@@ -2,48 +2,6 @@
 <items version="2" >
 
     <item
-        jar="E:\android\Douch\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_4fa4b652f458b8d675d851775445dfd747640e0c\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\ahnju\.gradle\caches\modules-2\files-2.1\com.flaviofaria\kenburnsview\1.0.7\ce4e8bba9e026dd29f8110b2f6bb1fc4ecbdd9b1\kenburnsview-1.0.7.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="ce4e8bba9e026dd29f8110b2f6bb1fc4ecbdd9b1">
-        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\kenburnsview-1.0.7_adea1bc48c45d97683ab1b48c28f12022a8ba0f6\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\ahnju\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_bbba70ef8e5c38d43665061936aa9e33f7f8c436\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\ahnju\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_b3c723b01360da3f1609fc44c86d1c01be6c40b5\classes.dex" />
-    </item>
-    <item
-        jar="E:\android\Douch\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="f2146cf39ac7d12edd07557f76e9372309ebfb98">
-        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_bd438f04530f36069cede506036ead8a80ffc82b\classes.dex" />
-    </item>
-    <item
-        jar="E:\android\Douch\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="597e1697ff78211187d681fb3531ee334fb8f072">
-        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fcd4a8b73429095793fe40aa640fb856ad84225b\classes.dex" />
-    </item>
-    <item
         jar="E:\android\Douch\app\build\intermediates\exploded-aar\com.github.ksoichiro\android-observablescrollview\1.6.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.2"
@@ -56,6 +14,13 @@
         revision="23.0.2"
         sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
         <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_f562a5f1dad0f7f754d4dc24e0d0346e68dd82f7\classes.dex" />
+    </item>
+    <item
+        jar="E:\android\Douch\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_4fa4b652f458b8d675d851775445dfd747640e0c\classes.dex" />
     </item>
     <item
         jar="E:\android\Douch\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
@@ -79,11 +44,18 @@
         <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.florent37-materialviewpager-1.2.0_706cd304e459fb468afb647d8d5e1c9b2a95c6ea\classes.dex" />
     </item>
     <item
-        jar="E:\android\Douch\app\build\intermediates\exploded-aar\com.jpardogo.materialtabstrip\library\1.1.0\jars\classes.jar"
+        jar="C:\Users\ahnju\.gradle\caches\modules-2\files-2.1\com.flaviofaria\kenburnsview\1.0.7\ce4e8bba9e026dd29f8110b2f6bb1fc4ecbdd9b1\kenburnsview-1.0.7.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="611c7708cd3df0d7ae99105d4df5af8eb25c4b32">
-        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jpardogo.materialtabstrip-library-1.1.0_74bd175508fbf322645bbe4ecd42e5470e1785b6\classes.dex" />
+        sha1="ce4e8bba9e026dd29f8110b2f6bb1fc4ecbdd9b1">
+        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\kenburnsview-1.0.7_adea1bc48c45d97683ab1b48c28f12022a8ba0f6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ahnju\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_bbba70ef8e5c38d43665061936aa9e33f7f8c436\classes.dex" />
     </item>
     <item
         jar="E:\android\Douch\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
@@ -91,6 +63,20 @@
         revision="23.0.2"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
         <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_85368deaf62dedbd4eedd7a416a82f95ab9152d4\classes.dex" />
+    </item>
+    <item
+        jar="E:\android\Douch\app\build\intermediates\exploded-aar\com.jpardogo.materialtabstrip\library\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="611c7708cd3df0d7ae99105d4df5af8eb25c4b32">
+        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jpardogo.materialtabstrip-library-1.1.0_74bd175508fbf322645bbe4ecd42e5470e1785b6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ahnju\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_b3c723b01360da3f1609fc44c86d1c01be6c40b5\classes.dex" />
     </item>
     <item
         jar="C:\Users\ahnju\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
@@ -112,6 +98,20 @@
         revision="23.0.2"
         sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
         <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_97c418900dfdbc17703ffe36f56a4380b52deadb\classes.dex" />
+    </item>
+    <item
+        jar="E:\android\Douch\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1bdec5fe2bdf585131c6e1d2e5942363249e0e39">
+        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_bd438f04530f36069cede506036ead8a80ffc82b\classes.dex" />
+    </item>
+    <item
+        jar="E:\android\Douch\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1498efb7e2c0eef2cf5da3fed25753aa0f58caa1">
+        <dex dex="E:\android\Douch\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fcd4a8b73429095793fe40aa640fb856ad84225b\classes.dex" />
     </item>
 
 </items>

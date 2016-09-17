@@ -6,31 +6,6 @@
         <item name="colorPrimary">#00ACC1</item>
         <item name="colorPrimaryDark">#00838F</item>
         <item name="colorAccent">#4DD0E1</item>
-
-        <item name="android:textColorPrimary">@android:color/white</item>
-        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
-        <item name="android:windowTranslucentStatus" tools:targetApi="21">true</item>
-
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-
-        <item name="colorControlNormal">@android:color/white</item>
-        <item name="actionBarTheme">@style/AppTheme.ActionBarTheme</item>
-
         </style>
-        <style name="AppTheme.ActionBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
-        <item name="colorControlNormal">@android:color/white</item>
-        </style>
-        <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
-        <item name="spinBars">true</item>
-        <item name="color">@color/drawerArrowColor</item>
-        </style>
-
-    <style name="AppThemeActionbar" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">#5A75AB</item>
-        <item name="colorPrimaryDark">#404F83</item>
-        <item name="colorAccent">#7897DB</item>
-    </style>
 
 </resources>

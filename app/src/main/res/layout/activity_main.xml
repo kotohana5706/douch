@@ -4,50 +4,72 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
-
-    <!--RelativeLayout
+    android:background="#FFFFFF"
+    android:id="@+id/mainView">
+    <android.support.v7.widget.CardView
+        android:layout_height="180dp"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:gravity="top"
-        android:id="@+id/infoLayout">
+        android:scrollbars="vertical"
+        android:id="@+id/MainCard">
+        <RelativeLayout
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="30dp"
+                android:id="@+id/rDate"
+                android:text="DATE"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/rName"
+                android:text="NAME"
+                android:textSize="25dp"
+                android:layout_below="@id/rDate"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dayprt"
+                android:text="Am"
+                android:layout_below="@id/rName"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:id="@+id/starttime"
+                android:layout_alignLeft="@id/dayprt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/endtime"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rImage"
+                android:background="@drawable/img_group_none"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="25dp"/>
+        </RelativeLayout>
 
-    </RelativeLayout>
-    <android.support.design.widget.TabLayout
-        android:layout_height="40dp"
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_below="@+id/infoLayout"
-        android:id="@+id/titleStrip">
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="#000000"
+        android:gravity="left">
+    </LinearLayout>
 
-    </android.support.design.widget.TabLayout>
-
-    <android.support.v4.view.ViewPager
-        android:layout_height="280dp"
-        android:layout_width="match_parent"
-        android:gravity="top"
-        android:id="@+id/viewPager"
-        android:layout_below="@id/titleStrip">
-
-    </android.support.v4.view.ViewPager-->
-
-    <!--deleted viewpager-->
-    <com.github.florent37.materialviewpager.MaterialViewPager
-        android:id="@+id/materialViewPager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:viewpager_logo="@layout/header_logo"
-        app:viewpager_logoMarginTop="100dp"
-        app:viewpager_color="#5A75AB"
-        app:viewpager_headerHeight="200dp"
-        app:viewpager_headerAlpha="1.0"
-        app:viewpager_hideLogoWithFade="false"
-        app:viewpager_hideToolbarAndTitle="false"
-        app:viewpager_enableToolbarElevation="true"
-        app:viewpager_parallaxHeaderFactor="1.5"
-        app:viewpager_headerAdditionalHeight="20dp"
-        app:viewpager_displayToolbarWhenSwipe="true"
-        app:viewpager_transparentToolbar="true"
-        app:viewpager_animatedHeaderImage="true"
-        app:viewpager_disableToolbar="false"
-        />
 </RelativeLayout>
