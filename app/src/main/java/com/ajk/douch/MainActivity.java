@@ -1,6 +1,7 @@
 package com.ajk.douch;
 
 import android.content.Intent;
+import android.nfc.NfcAdapter;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentStatePagerAdapter;
@@ -19,7 +20,7 @@ import java.util.ArrayList;
 /**
  * Created by ahnju on 2016-08-02.
  */
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements NfcAdapter.CreateNdefMessageCallback{
 
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private long backPressed;
     private ArrayList<rcData> rcDataset;
+
+    NfcAdapter mNfcAdapter = null;
 
 
     @Override
@@ -41,6 +44,14 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(mLayout);
         mAdapter = new rcAdapter(rcDataset);
         mRecyclerView.setAdapter(mAdapter);
+        mNfcAdapter = NfcAdapter.getDefaultAdapter(this);
+        if(mNfcAdapter != null){
+            Toast.makeText(MainActivity.this, "tap to another device", Toast.LENGTH_SHORT).show();
+        }
+        else{
+            Toast.makeText(MainActivity.this, "This phone is not NFC enable", Toast.LENGTH_SHORT).show();
+        }
+
 
         rcDataset.add(new rcData("NOPE", R.drawable.img_group_none));
     }
