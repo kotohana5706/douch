@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:id="@+id/loginRelativeMain">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/logoRelative">
+
+        <ImageView
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:background="@mipmap/ic_launcher"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/logoview">
+
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logoview"
+            android:layout_centerHorizontal="true"
+            android:text="DOUCH"
+            android:id="@+id/douch_name"
+            android:textSize="35dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoRelative"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="text|textNoSuggestions"
+            android:hint="Name"
+            android:id="@+id/register_name"
+            android:ems="10"
+            android:layout_above="@+id/register_id"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number|textNoSuggestions"
+            android:maxLines="1"
+            android:hint="Tel"
+            android:ems="10"
+            android:id="@+id/register_id"
+            android:layout_above="@+id/register_pw"
+            android:layout_alignParentStart="true" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="textPassword|textNoSuggestions"
+            android:hint="Password"
+            android:id="@+id/register_pw"
+            android:ems="10"
+            android:layout_above="@+id/register_checkpw"
+            android:layout_alignParentStart="true" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword|textNoSuggestions"
+            android:maxLines="1"
+            android:hint="Password"
+            android:id="@+id/register_checkpw"
+            android:ems="10"
+            android:layout_above="@+id/view"
+            android:layout_alignParentStart="true" />
+        <com.ajk.douch.radiusBtn
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="onClickRegi"
+            app:text="Register with Douch"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/view">
+
+        </com.ajk.douch.radiusBtn>
+    </RelativeLayout>
+
+</RelativeLayout>

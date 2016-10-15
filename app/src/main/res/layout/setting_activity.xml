@@ -3,4 +3,58 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="15dp"
+            android:text="잠금화면 설정"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/line">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남은시간 표시"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentLeft="true"/>
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:id="@+id/timeOn"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/line">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기본앱 사용"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentLeft="true"/>
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:id="@+id/appOn"
+            android:layout_alignParentRight="true"
+            style="@style/Animation.AppCompat.Dialog" />
+    </RelativeLayout>
+
 </LinearLayout>
